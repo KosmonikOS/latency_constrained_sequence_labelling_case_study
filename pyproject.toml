@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sequence-tagging-benchmark"
+version = "0.1.0"
+description = "Benchmarking utilities for sequence labelling models."
+requires-python = ">=3.12"
+dependencies = [
+    "datasets==3.6.0",
+    "flair",
+    "hmmlearn",
+    "ipykernel",
+    "nltk",
+    "numpy",
+    "onnxruntime",
+    "optimum[onnxruntime]",
+    "pandas",
+    "plotly",
+    "psutil",
+    "seqeval",
+    "scikit-learn",
+    "sklearn-crfsuite",
+    "nbformat>=4.2.0",
+    "stanza",
+    "torch==2.10.0",
+    "torchao==0.16.0",
+    "tqdm",
+    "transformers",
+]
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sequence_tagging_benchmark*"]

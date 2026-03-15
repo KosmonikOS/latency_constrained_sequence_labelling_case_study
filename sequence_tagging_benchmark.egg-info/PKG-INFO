@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: sequence-tagging-benchmark
+Version: 0.1.0
+Summary: Benchmarking utilities for sequence labelling models.
+Requires-Python: >=3.12
+Requires-Dist: datasets==3.6.0
+Requires-Dist: flair
+Requires-Dist: hmmlearn
+Requires-Dist: ipykernel
+Requires-Dist: nltk
+Requires-Dist: numpy
+Requires-Dist: onnxruntime
+Requires-Dist: optimum[onnxruntime]
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: psutil
+Requires-Dist: scikit-learn
+Requires-Dist: sklearn-crfsuite
+Requires-Dist: nbformat>=4.2.0
+Requires-Dist: stanza
+Requires-Dist: torch==2.10.0
+Requires-Dist: torchao==0.16.0
+Requires-Dist: tqdm
+Requires-Dist: transformers
