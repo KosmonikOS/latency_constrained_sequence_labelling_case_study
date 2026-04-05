@@ -1,5 +1,5 @@
 import time
-from typing import Any, Callable
+from typing import Any
 from abc import ABC, abstractmethod
 import numpy as np
 import psutil

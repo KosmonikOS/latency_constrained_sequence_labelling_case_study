@@ -1,7 +1,0 @@
-pyproject.toml
-sequence_tagging_benchmark/taggers.py
-sequence_tagging_benchmark.egg-info/PKG-INFO
-sequence_tagging_benchmark.egg-info/SOURCES.txt
-sequence_tagging_benchmark.egg-info/dependency_links.txt
-sequence_tagging_benchmark.egg-info/requires.txt
-sequence_tagging_benchmark.egg-info/top_level.txt
